@@ -1,0 +1,59 @@
+/* reusable classes */
+.font8{
+font-size: .8em;
+}
+.rootfontbody10{
+font-size: 10px;
+}
+.font11{
+  font-size: 1.1em;
+}
+.font12{
+  font-size: 1.2em;
+}
+.bold{
+  font-weight: bold;
+}
+.italics{
+  font-style:italic;
+}
+.underline{
+  text-decoration: underline;
+}
+.background-bar-grey{
+background-color:#e0e0e0;
+}
+.mrgntop0{
+  margin-top:0em;
+}
+.pdgbtm2px{
+  padding-bottom: .2em;
+}
+.font-weight-initial{
+  font-weight: initial;
+}
+/* element modifications */
+body{
+   font-family: arial, serif;
+   margin: 5em 10em;
+}
+li{
+  padding-bottom: .25em;
+  line-height: 1em;
+}
+ul{
+  -webkit-margin-before: 0.5em;
+  -webkit-padding-start: 1.5em;
+  margin-bottom: .5em;
+}
+img{
+  display:block;
+  margin: 0 auto;
+  width:50%;
+}
+/* responsive */
+@media (max-width: 767px) {
+body{
+  margin: 5em 1em;
+}
+ }
